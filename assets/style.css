@@ -163,7 +163,7 @@ a {
 .clients .images {
   display: flex;
   justify-content: space-between;
-  
+
   align-items: center;
 }
 
@@ -179,7 +179,6 @@ a {
 .clients .images a:hover {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
-
 
 /*------- Guides -------*/
 .guides {
@@ -624,11 +623,20 @@ a {
 }
 
 .footer .social {
+  display: flex;
   margin-top: 4rem;
 }
 
-.footer .social-link img {
-  background-color: #f9f9f9;
-  padding: 11px;
+.footer .social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 1.6rem;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 0.3rem;
+}
+
+.footer .social-link:hover {
+  background-color: #f9f9f9;
 }
