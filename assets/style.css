@@ -52,16 +52,29 @@ a {
 }
 
 /* header */
-.header {
+.hero-wrap {
   background-color: #e6f0ff;
   height: 100vh;
   position: relative;
+  display: flex;
+}
+
+.fixed-header {
+  width: 100vw;
+  background-color: #e6f0ff;
+  padding-top: 2.6rem;
+  position: sticky;
+  top: -26px;
+  z-index: 1;
 }
 
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 3.8rem;
+  padding: 1.2rem 0;
+  width: 111rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navbar ul {
