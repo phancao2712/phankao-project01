@@ -62,6 +62,8 @@ a {
   height: calc(100vh - 9rem);
   position: relative;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .fixed-header {
@@ -116,15 +118,11 @@ a {
   border-radius: 0.8rem;
 }
 
-.super {
-  margin-top: 11.7rem;
-}
-
-.super .info {
+.hero-wrap .info {
   width: 51%;
 }
 
-.super .sub-title {
+.hero-wrap .sub-title {
   font-weight: 500;
   font-size: 1.8rem;
   letter-spacing: 0.01em;
@@ -132,7 +130,7 @@ a {
   line-height: 1.5;
 }
 
-.super .title {
+.hero-wrap .title {
   font-weight: 700;
   font-size: 6.3rem;
   line-height: 7.6rem;
@@ -141,7 +139,7 @@ a {
   margin-bottom: 3rem;
 }
 
-.super .desc {
+.hero-wrap .desc {
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 178%;
