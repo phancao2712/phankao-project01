@@ -68,7 +68,6 @@ a {
 
 .fixed-header {
   background-color: #e6f0ff;
-
   padding-top: 2.6rem;
   position: sticky;
   top: -2.6rem;
@@ -279,7 +278,7 @@ a {
 /* Featured */
 
 .featured {
-  background-color: #f5fafe;
+  background-color: #e6f0ff;
   padding: 11rem 0;
 }
 
