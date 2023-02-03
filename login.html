@@ -71,12 +71,14 @@
             nameField.style.maxHeight = "0";
             signupBtn.classList.add("disable");
             signinBtn.classList.remove("disable");
+            document.title = 'Sign In';
         }
 
         signupBtn.onclick = function() {
             nameField.style.maxHeight = "65px";
             signupBtn.classList.remove("disable");
             signinBtn.classList.add("disable");
+            document.title = 'Sign Up';
         }
     </script>
 </body>
