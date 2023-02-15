@@ -81,7 +81,7 @@ header {
 }
 
 .search .item:hover {
-  color: #000 ;
+  color: #000;
 }
 
 .user .back {
@@ -218,7 +218,7 @@ nav {
 }
 
 .prod .item {
-  width: 23%;
+  width: 23.8%;
 }
 
 .img-prod {
@@ -296,27 +296,54 @@ nav {
 /* Footer */
 
 footer {
+  justify-content: space-between;
   width: 98.9vw;
-  height: 50px;
-  background-color: #ccc;
+  background-color: #fff;
   position: fixed;
   bottom: 0;
-}
-
-footer .block-right {
-  display: flex;
-  align-items: center;
-  line-height: 50px;
-  color: #000;
-  gap: 10px;
+  padding: 8px 80px 9px 80px;
+  border-top: 1px solid #ccc;
 }
 
 footer .block-right .desc {
-  color: #000;
+  display: inline-block;
   font-size: 14px;
+  line-height: 35px;
+  color: #000;
 }
 
 footer .block-right .desc:not(:first-child):hover {
   text-decoration: underline;
-  opacity: 0.5;
 }
+
+footer .block-right .docs {
+  display: inline-block;
+  text-align: center;
+  width: 19px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+footer .support {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+footer .block-left {
+  display: flex;
+}
+
+footer .block-left .item {
+  margin: 10px;
+}
+
+footer .block-left .desc {
+  font-weight: 500;
+}
+
+footer .block-left .desc:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
