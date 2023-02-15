@@ -129,7 +129,7 @@ header .user .back:hover {
 }
 
 .seper {
-  width: 98vw;
+  width: 98.9vw;
   height: 0.5px;
   background-color: #ccc;
 }
@@ -291,4 +291,32 @@ nav {
   flex-wrap: wrap;
   column-gap: 20px;
   row-gap: 30px;
+}
+
+/* Footer */
+
+footer {
+  width: 98.9vw;
+  height: 50px;
+  background-color: #ccc;
+  position: fixed;
+  bottom: 0;
+}
+
+footer .block-right {
+  display: flex;
+  align-items: center;
+  line-height: 50px;
+  color: #000;
+  gap: 10px;
+}
+
+footer .block-right .desc {
+  color: #000;
+  font-size: 14px;
+}
+
+footer .block-right .desc:not(:first-child):hover {
+  text-decoration: underline;
+  opacity: 0.5;
 }
