@@ -51,6 +51,7 @@ header {
   max-width: 42rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px;
   overflow: hidden;
+  transform: translateX(16%);
 }
 
 .search i {
