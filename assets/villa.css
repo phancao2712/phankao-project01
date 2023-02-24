@@ -202,6 +202,7 @@ header .user .back:hover {
   justify-content: center;
   gap: 10px;
   margin-top: 8px;
+  overflow: hidden;
 }
 
 .image .container img:first-child {
@@ -219,6 +220,7 @@ header .user .back:hover {
 .container img {
   flex: 1;
   width: 21%;
+  transition: .5s;
 }
 
 /* Info */
