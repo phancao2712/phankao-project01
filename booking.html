@@ -101,7 +101,7 @@
 								</div>
 							</div>
 							<div class="form-btn">
-								<button class="submit-btn">Book Now</button>
+								<button id="subMit" class="submit-btn">Book Now</button>
 							</div>
 						</form>
 					</div>
@@ -109,5 +109,12 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		let subMit = document.getElementById('subMit');
+		subMit.onclick = function () {
+			alert('Quý Khách Đã đặt phòng thành công!');
+			location.replace("http://127.0.0.1:5500/index.html");
+		}
+	</script>
 </body>
 </html>
